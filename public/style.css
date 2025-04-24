@@ -1,0 +1,46 @@
+body {
+    font-family: sans-serif;
+    padding: 20px;
+  }
+  
+  .filter {
+    margin-bottom: 20px;
+  }
+  
+  .filter label {
+    margin-right: 10px;
+  }
+  
+  .range-value {
+    font-weight: bold;
+  }
+  
+  table {
+    width: 100%;
+    margin-top: 20px;
+    border-collapse: collapse;
+  }
+  
+  th, td {
+    padding: 8px;
+    text-align: left;
+    border: 1px solid #ddd;
+  }
+  
+  #košarica {
+    margin-top: 30px;
+  }
+  
+  #confirm-rent {
+    margin-top: 20px;
+    padding: 10px;
+    background-color: green;
+    color: white;
+    border: none;
+    cursor: pointer;
+  }
+  
+  #confirm-rent:disabled {
+    background-color: grey;
+  }
+  
